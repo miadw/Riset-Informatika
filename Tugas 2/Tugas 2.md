@@ -22,9 +22,9 @@ Berdasarkan rumusan masalah yang telah didapatkan, tujuan penelitian yang dapat 
 1. Mengembangkan sistem otomatis menggunakan metode Convolutional Neural Network (CNN) untuk mengidentifikasi kualitas telur ayam berdasarkan karakteristik visual seperti warna cangkang, bentuk, dan keutuhan cangkang.
 
 ### Metode Penelitian
-1. Dataset
-   Dataset yang digunakan dalam proses identifikasi kualitas telur menggunakan metode Convolutional Neural Network (CNN) terdapat 7392 data telur ayam. Dataset tersebut akan dipisahkan menjadi data training dan data test. Data training dipisahkan menjadi retak, tidak retak, pucat dan tidak pucat. Sedangkan data test merupakan data yang nantinya akan digunakan sebagai pengujian dalam mengidentifikasi kualitas telur ayam.
-2. Preprocessing
-   Preprocessing adalah langkah penting dalam pengolahan data sebelum data tersebut digunakan dalam metode Convolutional Neural Network (CNN) untuk mengidentifikasi kualitas telur ayam. Penggunaan preprocessing dilakukan dengan tujuan untuk meringankan beban komputer saat melakukan training dataset. 
-3. Ekstraksi Fitur
-   Citra cangkang telur dari dataset akan dimasukkan ke dalam model ekstraksi fitur untuk mengekstraksi fitur yang relevan, seperti bintik, garis, dan tonjolan menggunakan teknik lapisan konvolusi tingkat rendah yang diterapkan oleh tiga arsitektur CNN selama proses pelatihan. Fitur-fitur ini akan digunakan sebagai dasar untuk menilai kualitas telur ayam.
+1. Dataset  
+Dataset yang digunakan dalam proses identifikasi kualitas telur menggunakan metode Convolutional Neural Network (CNN) terdapat 7392 data telur ayam. Dataset tersebut akan dipisahkan menjadi data training dan data test. Data training dipisahkan menjadi retak, tidak retak, pucat dan tidak pucat. Sedangkan data test merupakan data yang nantinya akan digunakan sebagai pengujian dalam mengidentifikasi kualitas telur ayam.
+2. Preprocessing  
+Preprocessing adalah langkah penting dalam pengolahan data sebelum data tersebut digunakan dalam metode Convolutional Neural Network (CNN) untuk mengidentifikasi kualitas telur ayam. Penggunaan preprocessing dilakukan dengan tujuan untuk meringankan beban komputer saat melakukan training dataset. 
+3. Ekstraksi Fitur  
+Citra cangkang telur dari dataset akan dimasukkan ke dalam model ekstraksi fitur untuk mengekstraksi fitur yang relevan, seperti bintik, garis, dan tonjolan menggunakan teknik lapisan konvolusi tingkat rendah yang diterapkan oleh tiga arsitektur CNN selama proses pelatihan. Fitur-fitur ini akan digunakan sebagai dasar untuk menilai kualitas telur ayam.
