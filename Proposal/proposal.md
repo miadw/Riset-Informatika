@@ -1,5 +1,5 @@
 ### Penjelasan Ringkas
-Riset ini mengambil topik menganalisis dan memprediksi harga rumah kedepannya menggunakan blabla. Dataset yang digunakan berisi beberapa data yang mencakup luas, jumlah kamar mandi serta kamar tidur, lingkungan, tahun dibangun, dan harga.
+Riset ini mengambil topik menganalisis dan memprediksi harga rumah kedepannya menggunakan LGBM Regressor dan XGB Regressor. Dataset yang digunakan berisi beberapa data yang mencakup luas, jumlah kamar mandi serta kamar tidur, lingkungan, tahun dibangun, dan harga.
 
 ### Metode yang Digunakan
 Ada beberapa metodologi yang dilakukan sebagai berikut.
