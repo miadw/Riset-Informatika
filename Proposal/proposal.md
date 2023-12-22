@@ -1,0 +1,30 @@
+### Penjelasan Ringkas
+Riset ini mengambil topik menganalisis dan memprediksi harga rumah kedepannya menggunakan blabla. Dataset yang digunakan berisi beberapa data yang mencakup luas, jumlah kamar mandi serta kamar tidur, lingkungan, tahun dibangun, dan harga.
+
+### Metode yang Digunakan
+Ada beberapa metodologi yang dilakukan sebagai berikut.
+1. Analisis data eksploratif
+Untuk mengecek dan memperbaiki data agar bisa digunakan untuk proses selanjutnya
+2. Seleksi fitur
+Menyeleksi fitur yang akan digunakan untuk proses selanjutnya menggunakan beberapa model, yaitu XGBRegressor, LGBNRegressor, dan CatboostRegressor.
+3. Modeling
+Melakukan evaluasi antara model XGBRegressor dengan LGBNRegressor untuk mencari yang terbaik sebagai pengujian prediksi.
+4. Pengujian prediksi
+Melakukan pengujian prediksi dan membandingkan metrik pengujian yang terbaik untuk digunakan.
+
+### Referensi
+Sumber referensi kodingan.
+https://www.kaggle.com/code/guanlintao/ml-optuna-eda-housing-price-prediction 
+
+### Dataset
+Dataset diambil dari tautan sebagai berikut.
+https://www.kaggle.com/datasets/muhammadbinimran/housing-price-prediction-data
+
+### Coding
+Codingan dapat diakses pada tautan berikut.
+https://colab.research.google.com/drive/1tARHqDvX94zKkzy8F4T9wodyJYJ_oA3s?usp=sharing
+
+### Analisis (Metrik Pengujian)
+index,Model,MedAE(eval),MedAE(test),R2_Score(eval),R2_Score(test)
+1,LGBM,186.17341056949718,183.84724170730294,0.5559453054033903,0.5660168322285046
+0,XGB,186.59938010200517,184.99956979116507,0.5352705575275362,0.5467528343421337
