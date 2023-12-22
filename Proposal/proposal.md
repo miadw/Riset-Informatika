@@ -3,19 +3,19 @@ Riset ini mengambil topik menganalisis dan memprediksi harga rumah kedepannya me
 
 ### Metode yang Digunakan
 Ada beberapa metodologi yang dilakukan sebagai berikut.
-1. Analisis data eksploratif
+1. Analisis data eksploratif :
 Untuk mengecek dan memperbaiki data agar bisa digunakan untuk proses selanjutnya
 ![image](https://github.com/miadw/Riset-Informatika/assets/118716343/82feea3b-d17a-4384-a272-1ef2870f5444)
 
-2. Seleksi fitur
+2. Seleksi fitur :
 Menyeleksi fitur yang akan digunakan untuk proses selanjutnya menggunakan beberapa model, yaitu XGBRegressor, LGBNRegressor, dan CatboostRegressor.
 ![image](https://github.com/miadw/Riset-Informatika/assets/118716343/da7604f1-87a1-47e8-8635-ee9bfdb8d42d)
 
-3. Modeling
+3. Modeling :
 Melakukan evaluasi antara model XGBRegressor dengan LGBNRegressor untuk mencari yang terbaik sebagai pengujian prediksi.
 ![image](https://github.com/miadw/Riset-Informatika/assets/118716343/2021b65b-3050-4d7c-9ebb-eaf5b0bea38b)
 
-4. Pengujian prediksi
+4. Pengujian prediksi :
 Melakukan pengujian prediksi dan membandingkan metrik pengujian yang terbaik untuk digunakan.
 ![image](https://github.com/miadw/Riset-Informatika/assets/118716343/1018d77d-ba4b-4300-b87d-565e30279962)
 
