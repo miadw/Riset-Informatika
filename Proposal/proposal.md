@@ -1,5 +1,5 @@
 ### Penjelasan Ringkas
-Riset ini mengambil topik menganalisis dan memprediksi harga rumah kedepannya menggunakan LGBM Regressor dan XGB Regressor. Dataset yang digunakan berisi beberapa data yang mencakup luas, jumlah kamar mandi serta kamar tidur, lingkungan, tahun dibangun, dan harga.
+Riset ini mengambil topik yaitu "Menganalisis dan Memprediksi Harga Rumah ke Depannya Menggunakan LGBM Regressor dan XGB Regressor". Dataset yang digunakan berisi beberapa data yang mencakup luas, jumlah kamar mandi serta kamar tidur, lingkungan, tahun dibangun, dan harga.
 
 ### Metode yang Digunakan
 Ada beberapa metodologi yang dilakukan sebagai berikut.
@@ -37,4 +37,7 @@ index,Model,MedAE(eval),MedAE(test),R2_Score(eval),R2_Score(test)
 1,LGBM,186.17341056949718,183.84724170730294,0.5559453054033903,0.5660168322285046
 0,XGB,186.59938010200517,184.99956979116507,0.5352705575275362,0.5467528343421337
 ![image](https://github.com/miadw/Riset-Informatika/assets/118716343/d41e9df3-1d86-4d4e-b3ec-4dfc23353cb1)
+
+### Draft Paper
+https://docs.google.com/document/d/1ByJVezSTXUxATDAQId11JqYZdzwyYd4mE7eiaesF2NU/edit?usp=sharing
 
